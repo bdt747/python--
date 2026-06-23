@@ -1,0 +1,15 @@
+list=[1,2,3,4,5]
+print(list[0])#输出列表的第一个元素
+list.append(2)#在列表末尾添加一个元素
+print(list)
+list.remove(2)#删除列表中第一个出现的元素2
+print(list)
+list[1]=10#修改列表中索引为1的元素的值为10
+print(list)
+print(len(list))#输出列表的长度
+print(list[0:3])#输出列表中索引从0到2的元素
+print(max(list))#输出列表中的最大值
+print(min(list))#输出列表中的最小值
+print(sum(list))#输出列表中所有元素的和
+print(list.count(2))#输出列表中元素2出现的次数
+print(sorted(list))#输出列表中元素的排序结果

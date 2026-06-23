@@ -1,0 +1,9 @@
+#"hello,word"字符串str
+#6整数int
+#6.0浮点数float
+#True/False布尔值bool
+#None空值NoneType
+len("hello,word")#字符串的长度
+print(type(123))#查看数据类型
+print("hello,word"[4])#字符串的索引，索引从0开始，负数表示从右往左数
+print("hello,word"[-1])#字符串的索引，索引从0开始，负数表示从右往左数
